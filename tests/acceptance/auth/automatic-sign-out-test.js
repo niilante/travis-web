@@ -1,7 +1,7 @@
 /* global signInUser */
-// import { test } from 'qunit';
+import { test } from 'qunit';
 import moduleForAcceptance from 'travis/tests/helpers/module-for-acceptance';
-// import authPage from 'travis/tests/pages/auth';
+import authPage from 'travis/tests/pages/auth';
 
 moduleForAcceptance('Acceptance | automatic sign out', {
   beforeEach() {
