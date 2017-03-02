@@ -9,7 +9,7 @@ moduleForAcceptance('Acceptance | automatic sign out', {
     signInUser(currentUser);
   }
 });
-/*
+
 test('when token is invalid user should be signed out', function (assert) {
   window.sessionStorage.setItem('travis.token', 'wrong-token');
   window.localStorage.setItem('travis.token', 'wrong-token');
@@ -21,4 +21,3 @@ test('when token is invalid user should be signed out', function (assert) {
   });
   percySnapshot(assert);
 });
-*/
